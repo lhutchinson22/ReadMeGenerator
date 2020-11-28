@@ -1,16 +1,70 @@
-// array of questions for user
-const questions = [
+const inquirer = require("inquirer");
+const fs = require("fs");
 
-];
+inquirer
+  .prompt([
+    {
+      type: "input",
+      message: "what is your project title?",
+      name: "titleInput",
+    },
+    {
+      type: "input",
+      message: "description?",
+      name: "descriptionInput",
+    },
+    {
+      type: "input",
+      message: "installation instructions?",
+      name: "installInput",
+    },
+    {
+      type: "input",
+      message: "usage information?",
+      name: "usuageInput",
+    },
+    {
+      type: "input",
+      message: "contribution guidelines",
+      name: "contributionInput",
+    },
+  ])
+  .then((res) => {
+    console.log(res);
 
-// function to write README file
-function writeToFile(fileName, data) {
-}
+    const readMeFormat = `
+        #Description
+        ${res.descriptionInput}
+        #Table of Contents
+        #Installation
+        ${res.installInput}
+        #Usage
+        ${res.usuageInput}
+        #License
+        #Contributing
+        ${res.contributionInput}
+        #Tests
+        #Questions`;
 
-// function to initialize program
-function init() {
+    fs.writeFile("README.md", readMeFormat, (err) =>
+      err ? console.error(err) : console.log("Success!")
+    );
+  });
 
-}
+// Given Starter CODE
+// // array of questions for user
+// const questions = [
 
-// function call to initialize program
-init();
+// ];
+
+// // function to write README file
+// function writeToFile(fileName, data) {
+// }
+
+// // function to initialize program
+// function init() {
+
+// }
+
+// // function call to initialize program
+// init();
