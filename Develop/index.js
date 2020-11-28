@@ -32,39 +32,39 @@ inquirer
   .then((res) => {
     console.log(res);
 
-    // const readMeFormat = `
-    //     #Description
-    //     ${res.descriptionInput}
-    //     #Table of Contents
-    //     #Installation
-    //     ${res.installInput}
-    //     #Usage
-    //     ${res.usuageInput}
-    //     #License
-    //     #Contributing
-    //     ${res.contributionInput}
-    //     #Tests
-    //     #Questions`;
+    const readMeFormat = `
+# Description
+${res.descriptionInput}
+# Table of Contents
+# Installation
+${res.installInput}
+# Usage
+${res.usuageInput}
+# License
+# Contributing
+${res.contributionInput}
+# Tests
+# Questions`;
 
-    fs.writeFile("README.md", returnRes(res), (err) =>
+    fs.writeFile("README.md", readMeFormat, (err) =>
       err ? console.error(err) : console.log("Success!")
     );
   });
 
-function returnRes(res) {
-  return `#Description
-${res.descriptionInput}
-#Table of Contents
-#Installation
-${res.installInput}
-#Usage
-${res.usuageInput}
-#License
-#Contributing
-${res.contributionInput}
-#Tests
-#Questions`;
-}
+// function returnRes(res) {
+//   return `# Description
+// ${res.descriptionInput}
+// # Table of Contents
+// # Installation
+// ${res.installInput}
+// # Usage
+// ${res.usuageInput}
+// # License
+// # Contributing
+// ${res.contributionInput}
+// # Tests
+// # Questions`;
+// }
 
 // Given Starter CODE
 // // array of questions for user
