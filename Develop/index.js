@@ -34,6 +34,11 @@ inquirer
       name: "githubInput",
     },
     {
+      type: "input",
+      message: "what is your email address",
+      name: "emailInput",
+    },
+    {
       type: "list",
       message: "choose a license",
       name: "licenseInput",
@@ -67,7 +72,6 @@ inquirer
     const readMeFormat = `
 # Description
 ${res.descriptionInput}
-# Table of Contents
 # Installation
 ${res.installInput}
 # Usage
@@ -78,8 +82,11 @@ ${returnLicense}
 ${res.contributionInput}
 # Tests
 # Questions
-github username:
-https://github.com/${res.githubInput}`;
+Github username:${res.githubInput}
+https://github.com/${res.githubInput}
+
+You can reach me at my email address: ${res.emailInput}, if you have any questions at all!
+# Table of Contents`;
 
     fs.writeFile("README.md", readMeFormat, (err) =>
       err ? console.error(err) : console.log("Success!")
