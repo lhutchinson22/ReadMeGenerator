@@ -78,7 +78,8 @@ ${returnLicense}
 ${res.contributionInput}
 # Tests
 # Questions
-${res.usuageInput}`;
+github username:
+https://github.com/${res.githubInput}`;
 
     fs.writeFile("README.md", readMeFormat, (err) =>
       err ? console.error(err) : console.log("Success!")
