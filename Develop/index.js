@@ -29,6 +29,11 @@ inquirer
       name: "contributionInput",
     },
     {
+      type: "input",
+      message: "what is your github username",
+      name: "githubInput",
+    },
+    {
       type: "list",
       message: "choose a license",
       name: "licenseInput",
@@ -72,42 +77,10 @@ ${returnLicense}
 # Contributing
 ${res.contributionInput}
 # Tests
-# Questions`;
+# Questions
+${res.usuageInput}`;
 
     fs.writeFile("README.md", readMeFormat, (err) =>
       err ? console.error(err) : console.log("Success!")
     );
   });
-
-// function returnRes(res) {
-//   return `# Description
-// ${res.descriptionInput}
-// # Table of Contents
-// # Installation
-// ${res.installInput}
-// # Usage
-// ${res.usuageInput}
-// # License
-// # Contributing
-// ${res.contributionInput}
-// # Tests
-// # Questions`;
-// }
-
-// Given Starter CODE
-// // array of questions for user
-// const questions = [
-
-// ];
-
-// // function to write README file
-// function writeToFile(fileName, data) {
-// }
-
-// // function to initialize program
-// function init() {
-
-// }
-
-// // function call to initialize program
-// init();
