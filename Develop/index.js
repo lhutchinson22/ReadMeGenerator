@@ -70,8 +70,13 @@ inquirer
     }
 
     const readMeFormat = `
-# Description
+# Description <a name="description"></a>
 ${res.descriptionInput}
+# Table of Contents
+1. [Description] (#description)
+2.
+3.
+4.
 # Installation
 ${res.installInput}
 # Usage
@@ -82,11 +87,11 @@ ${returnLicense}
 ${res.contributionInput}
 # Tests
 # Questions
-Github username:${res.githubInput}
-https://github.com/${res.githubInput}
+Github username: ${res.githubInput}
 
-You can reach me at my email address: ${res.emailInput}, if you have any questions at all!
-# Table of Contents`;
+For a look at my repositories click this link: https://github.com/${res.githubInput}
+
+You can reach me at my email address: ${res.emailInput}, if you have any questions at all!`;
 
     fs.writeFile("README.md", readMeFormat, (err) =>
       err ? console.error(err) : console.log("Success!")
