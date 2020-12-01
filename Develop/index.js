@@ -70,13 +70,17 @@ inquirer
     }
 
     const readMeFormat = `
-# Description <a name="description"></a>
+# Description 
 ${res.descriptionInput}
 # Table of Contents
-1. [Description] (#description)
-2.
-3.
-4.
+1. Description
+2. Installation
+3. Usage
+4. License
+5. Contributing
+6. Tests
+7. Questions
+
 # Installation
 ${res.installInput}
 # Usage
