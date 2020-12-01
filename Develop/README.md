@@ -1,18 +1,24 @@
 
 # Description 
-toc test
-# Table of Contents
-1. TOC
+toc test2
+
+- TOC
+{:toc}
 
 # Installation
-toc test
+toc test2
+
 # Usage
-toc test
+toctest2
+
 # License
 [![License: IPL 1.0](https://img.shields.io/badge/License-IPL%201.0-blue.svg)](https://opensource.org/licenses/IPL-1.0)
+
 # Contributing
-toc test
+toc test2
+
 # Tests
+
 # Questions
 Github username: lhutchinson22
 

@@ -72,18 +72,24 @@ inquirer
     const readMeFormat = `
 # Description 
 ${res.descriptionInput}
-# Table of Contents
-1. TOC
+
+- TOC
+{:toc}
 
 # Installation
 ${res.installInput}
+
 # Usage
 ${res.usuageInput}
+
 # License
 ${returnLicense}
+
 # Contributing
 ${res.contributionInput}
+
 # Tests
+
 # Questions
 Github username: ${res.githubInput}
 
