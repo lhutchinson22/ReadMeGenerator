@@ -1,26 +1,26 @@
 
 # Description 
-test14
+TOC test14
 # Table of Contents
-1. Description
-2. Installation
-3. Usage
-4. License
-5. Contributing
-6. Tests
+1. [Description](#description)
+2. [Installation](#installation)
+3. [Usage](#usage)
+4. [License](#license)
+5. [Contributing](#contributing)
+6. [Tests](#tests)
 7. [Questions](#questions)
 
 # Installation
-test14
+TOC test14
 
 # Usage
-test14
+TOC test15
 
 # License
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 # Contributing
-test14
+TOC test16
 
 # Tests
 Open up the terminal and type "node index.js" to run a test for this ReadMe generator.
