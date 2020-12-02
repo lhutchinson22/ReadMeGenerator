@@ -1,6 +1,6 @@
 
 # Description 
-test12
+testtoc13
 # Table of Contents
 1. Description
 2. Installation
@@ -11,16 +11,16 @@ test12
 7. Questions
 
 # Installation
-test12
+testtoc13
 
 # Usage
-test12
+testtoc13
 
 # License
-[![License: IPL 1.0](https://img.shields.io/badge/License-IPL%201.0-blue.svg)](https://opensource.org/licenses/IPL-1.0)
+[![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)
 
 # Contributing
-test12
+testtoc13
 
 # Tests
 Open up the terminal and type "node index.js" to run a test for this ReadMe generator.
