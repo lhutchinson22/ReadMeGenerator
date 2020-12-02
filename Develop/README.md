@@ -1,6 +1,6 @@
 
 # Description 
-testtoc13
+test14
 # Table of Contents
 1. Description
 2. Installation
@@ -8,19 +8,19 @@ testtoc13
 4. License
 5. Contributing
 6. Tests
-7. Questions
+7. [Questions](#questions)
 
 # Installation
-testtoc13
+test14
 
 # Usage
-testtoc13
+test14
 
 # License
-[![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 # Contributing
-testtoc13
+test14
 
 # Tests
 Open up the terminal and type "node index.js" to run a test for this ReadMe generator.

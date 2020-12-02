@@ -79,7 +79,7 @@ ${res.descriptionInput}
 4. License
 5. Contributing
 6. Tests
-7. Questions
+7. [Questions](#questions)
 
 # Installation
 ${res.installInput}
