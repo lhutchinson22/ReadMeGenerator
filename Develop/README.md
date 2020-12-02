@@ -1,6 +1,6 @@
 
 # Description 
-TOC test14
+This application is for quickly creating a readme for a new project!
 # Table of Contents
 1. [Description](#description)
 2. [Installation](#installation)
@@ -11,16 +11,16 @@ TOC test14
 7. [Questions](#questions)
 
 # Installation
-TOC test14
+for installing, type "npm init" for initialization, and then "npm install" for installing any packages the generator requires
 
 # Usage
-TOC test15
+this application is used to quickly generate readmes for any new project
 
 # License
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![License: IPL 1.0](https://img.shields.io/badge/License-IPL%201.0-blue.svg)](https://opensource.org/licenses/IPL-1.0)
 
 # Contributing
-TOC test16
+Anyone my contribute to improving the code of this generator
 
 # Tests
 Open up the terminal and type "node index.js" to run a test for this ReadMe generator.
