@@ -72,9 +72,14 @@ inquirer
     const readMeFormat = `
 # Description 
 ${res.descriptionInput}
-
-- TOC
-{:toc}
+# Table of Contents
+1. Description
+2. Installation
+3. Usage
+4. License
+5. Contributing
+6. Tests
+7. Questions
 
 # Installation
 ${res.installInput}
@@ -89,6 +94,7 @@ ${returnLicense}
 ${res.contributionInput}
 
 # Tests
+Open up the terminal and type "node index.js" to run a test for this ReadMe generator.
 
 # Questions
 Github username: ${res.githubInput}
