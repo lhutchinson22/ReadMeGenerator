@@ -1,6 +1,6 @@
 
 # Description 
-This application is for quickly creating a readme for a new project!
+This application makes it easy to create a readme file from the command-line
 # Table of Contents
 1. [Description](#description)
 2. [Installation](#installation)
@@ -11,16 +11,16 @@ This application is for quickly creating a readme for a new project!
 7. [Questions](#questions)
 
 # Installation
-for installing, type "npm init" for initialization, and then "npm install" for installing any packages the generator requires
+to install this program, you initalize by typing in "npm init" into the command line. After, you must run "npm install to download required packages. After this,  node index.js will run the application
 
 # Usage
-this application is used to quickly generate readmes for any new project
+I plan to use this for generating readme's efficiently
 
 # License
-[![License: IPL 1.0](https://img.shields.io/badge/License-IPL%201.0-blue.svg)](https://opensource.org/licenses/IPL-1.0)
+[![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)
 
 # Contributing
-Anyone my contribute to improving the code of this generator
+Contribution guidlines
 
 # Tests
 Open up the terminal and type "node index.js" to run a test for this ReadMe generator.
