@@ -39,3 +39,5 @@ Github username: lhutchinson22
 For a look at my repositories click this link: https://github.com/lhutchinson22
 
 You can reach me at my email address: lbhutchinson022@gmail.com, if you have any questions at all!
+
+For a walk-through video visit: https://drive.google.com/file/d/1jYfEdT2Gua1SNU3cvQ7RhUmyHvVehhLw/preview
